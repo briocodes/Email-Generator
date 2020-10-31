@@ -6,5 +6,7 @@ public class EmailApp {
 
         email.setAlternateEmail("androidteam@google.com");
         System.out.println("Your alternate email is: " + email.getAlternateEmail());
+
+        System.out.println(email.showInfo());
     }
 }

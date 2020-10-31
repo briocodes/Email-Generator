@@ -84,4 +84,11 @@ public class Email {
     public String getAlternateEmail() {
         return alternateEmail;
     }
+
+    public String showInfo(){
+        System.out.println("\nEMPLOYEE'S DATA SUMMARY");
+        return "DISPLAY NAME: " + firstName + " " + lastName + " " +
+                "\nCOMPANY EMAIL: " + email +
+                "\nMAILBOX CAPACITY: " + mailboxCapacity + "mb";
+    }
 }
